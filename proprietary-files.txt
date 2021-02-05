@@ -13,7 +13,6 @@ lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
 lib/vendor.egistec.hardware.fingerprint@2.0.so
 lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 -priv-app/MotoStylus/MotoStylus.apk|baa789a5a9b746a51cdf838f92ece63f6f3786ed
--product/app/MotoWaves/MotoWaves.apk
 product/etc/permissions/com.dolby.daxservice.xml
 product/etc/permissions/com.motorola.camera2.logan.xml
 product/etc/permissions/com.motorola.imager.access.xml
@@ -52,6 +51,8 @@ product/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so
 product/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so
 product/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so
 product/lib/vendor.qti.hardware.data.qmi@1.0.so
+-product/priv-app/daxService/daxService.apk
+
 usr/idc/uinput-egis.idc
 usr/idc/uinput-fpc.idc
 usr/keylayout/uinput-egis.kl
