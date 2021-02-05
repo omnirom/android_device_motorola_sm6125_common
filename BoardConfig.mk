@@ -22,7 +22,7 @@
 # Inherit from dynamic_common
 -include device/motorola/dynamic_common/BoardConfigDynamicCommon.mk
 
-DEVICE_PATH := device/motorola/sofiar
+SM6125_PATH := device/motorola/sm6125_common
 
 TARGET_OTA_ASSERT_DEVICE := sofiar
 
@@ -53,15 +53,15 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 116995371008
 BOARD_SUPER_PARTITION_SIZE := 8690597888
 BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 4341104640
 
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH := $(SM6125_PATH)/include
 
 # FM
 BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += $(SM6125_PATH)/system.prop
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_moto_trinket
+TARGET_INIT_VENDOR_LIB := //$(SM6125_PATH):libinit_moto_trinket
 
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += $(SM6125_PATH)
