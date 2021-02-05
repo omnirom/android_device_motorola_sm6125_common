@@ -1,10 +1,7 @@
 -app/MotoDolbyV3/MotoDolbyV3.apk
-etc/NT36xxx_MP_Setting_Criteria_6017.csv
 etc/permissions/com.motorola.androidx.camera.extensions.xml
-etc/permissions/com.motorola.camera2.content.ai.xml
 etc/permissions/com.motorola.dolby.dolbyui.features.xml
 -framework/com.motorola.androidx.camera.extensions.jar
--framework/vendor.egistec.hardware.fingerprint-V2.0-jar
 lib64/vendor.egistec.hardware.fingerprint@2.0.so
 lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 lib/libeye_tracking_dsp_sample_stub.so
@@ -12,7 +9,7 @@ lib/libmcf_native_window_helper.motocamera.so
 lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
 lib/vendor.egistec.hardware.fingerprint@2.0.so
 lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
--priv-app/MotoStylus/MotoStylus.apk|baa789a5a9b746a51cdf838f92ece63f6f3786ed
+-product/priv-app/MotoStylus/MotoStylus.apk|baa789a5a9b746a51cdf838f92ece63f6f3786ed
 product/etc/permissions/com.dolby.daxservice.xml
 product/etc/permissions/com.motorola.camera2.logan.xml
 product/etc/permissions/com.motorola.imager.access.xml
