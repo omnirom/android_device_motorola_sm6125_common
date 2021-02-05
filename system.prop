@@ -1,0 +1,14 @@
+ro.telephony.default_network=10,10
+
+#Netflix custom property
+ro.netflix.bsp_rev=Q6125-17995-1
+
+persist.radio.atfwd.start=false
+
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+
+vendor.bluetooth.soc=cherokee
