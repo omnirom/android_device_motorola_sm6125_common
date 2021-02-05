@@ -14,7 +14,6 @@ product/etc/permissions/com.dolby.daxservice.xml
 product/etc/permissions/com.motorola.camera2.logan.xml
 product/etc/permissions/com.motorola.imager.access.xml
 product/etc/permissions/com.motorola.imager.lake.xml
-product/etc/permissions/privapp-permissions-com.motorola.imagertuning_lake.xml
 -product/framework/com.motorola.imager.lake.jar
 -product/framework/com.quicinc.cne.api-V1.1-java.jar
 -product/framework/com.quicinc.cne.constants-V1.0-java.jar
