@@ -24,6 +24,11 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 29
 # must be before including omni part
 TARGET_BOOTANIMATION_SIZE := 1080p
 
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,device/motorola/dynamic_common/prebuilt/product,product) \
+    $(call find-copy-subdir-files,*,device/motorola/dynamic_common/prebuilt/system,system)
+
 $(call inherit-product, device/motorola/dynamic_common/omni-dynamic_common.mk)
 
 # Inherit from hardware-specific part of the product configuration
