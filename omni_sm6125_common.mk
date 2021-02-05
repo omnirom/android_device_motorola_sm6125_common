@@ -38,7 +38,7 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_sm6125_common
-PRODUCT_DEVICE := sofiar
+PRODUCT_DEVICE := sm6125_common
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := moto g8 power
