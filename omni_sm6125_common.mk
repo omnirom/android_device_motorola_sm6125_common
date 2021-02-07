@@ -26,8 +26,8 @@ TARGET_BOOTANIMATION_SIZE := 1080p
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/motorola/dynamic_common/prebuilt/product,product) \
-    $(call find-copy-subdir-files,*,device/motorola/dynamic_common/prebuilt/system,system)
+    $(call find-copy-subdir-files,*,device/motorola/sm6125_common/prebuilt/product,product) \
+    $(call find-copy-subdir-files,*,device/motorola/sm6125_common/prebuilt/system,system)
 
 $(call inherit-product, device/motorola/dynamic_common/omni-dynamic_common.mk)
 
