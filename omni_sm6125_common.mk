@@ -68,4 +68,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.swap_util_max=80 \
     ro.lmk.psi_complete_stall_ms=80
 
+DEVICE_PACKAGE_OVERLAYS += device/motorola/sm6125_common/overlay/device
+
 $(call inherit-product, vendor/motorola/sm6125_common/sm6125_common-vendor.mk)
