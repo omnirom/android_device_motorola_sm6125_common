@@ -33,3 +33,13 @@ service vendor.mbm_spy /system/bin/true
     disabled
     oneshot
     override
+
+service vendor.ss_ramdump /system/bin/true
+    disabled
+    oneshot
+    override
+
+service vendor.mot.popup-hal-1-0 /system/bin/true
+    disabled
+    oneshot
+    override
