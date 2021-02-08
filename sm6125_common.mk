@@ -45,7 +45,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     MotoRav \
-    MotoSofia
+    MotoRavT \
+    MotoSofia \
+    MotoSofiaP \
+    MotoSofiaPSprout \
+    MotoSofiaR
 
 # Lights
 PRODUCT_PACKAGES += \

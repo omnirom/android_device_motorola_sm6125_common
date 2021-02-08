@@ -18,7 +18,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:compileSdkVersion="29"
-    package="org.omnirom.overlay.moto.sofia"
+    package="org.omnirom.overlay.moto.sofiar"
     platformBuildVersionCode="29">
     <application android:extractNativeLibs="false"/>
     <overlay
