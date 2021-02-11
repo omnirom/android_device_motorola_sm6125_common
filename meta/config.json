@@ -1,0 +1,50 @@
+[
+    {
+        "model": "moto g fast",
+        "pageUrl":"https://dl.omnirom.org/motorola_sm6125_common",
+        "make": "Motorola",
+        "image": "meta/motog8.png",
+        "state": "unofficial",
+        "device": "rav"
+    },
+    {
+        "model": "moto g8",
+        "pageUrl":"https://dl.omnirom.org/motorola_sm6125_common",
+        "make": "Motorola",
+        "image": "meta/motog8.png",
+        "state": "unofficial",
+        "device": "rav"
+    },
+    {
+        "model": "moto g power",
+        "pageUrl":"https://dl.omnirom.org/motorola_sm6125_common",
+        "make": "Motorola",
+        "image": "meta/motog8power.png",
+        "state": "unofficial",
+        "device": "sofia"
+    },
+    {
+        "model": "moto g8 power",
+        "pageUrl":"https://dl.omnirom.org/motorola_sm6125_common",
+        "make": "Motorola",
+        "image": "meta/motog8power.png",
+        "state": "unofficial",
+        "device": "sofiar"
+    },
+    {
+        "model": "moto g pro",
+        "pageUrl":"https://dl.omnirom.org/motorola_sm6125_common",
+        "make": "Motorola",
+        "image": "meta/motogpro.png",
+        "state": "unofficial",
+        "device": "sofiap_sprout"
+    },
+    {
+        "model": "moto g stylus",
+        "pageUrl":"https://dl.omnirom.org/motorola_sm6125_common",
+        "make": "Motorola",
+        "image": "meta/motogpro.png",
+        "state": "unofficial",
+        "device": "sofiap"
+    }
+]
