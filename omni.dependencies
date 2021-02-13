@@ -40,5 +40,11 @@
     "repository": "android_device_motorola_dynamic_common",
     "target_path": "device/motorola/dynamic_common",
     "revision": "android-11"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_packages_apps_MotoActions",
+    "target_path": "packages/apps/MotoActions ",
+    "revision": "android-11"
   }
 ]
