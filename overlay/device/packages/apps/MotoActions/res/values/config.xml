@@ -14,10 +14,13 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- wether device has support for longpress fingerprint gesture -->
+    <!-- wether device has support for fingerprint gestures -->
     <bool name="config_device_support_fingerprint_gestures">true</bool>
 
     <!-- wether device has support for swipe up/down fingerprint gestures -->
     <bool name="config_device_support_swipe_leftright_gesture">true</bool>
+
+    <!-- wether device has support for longpress fingerprint gesture -->
+    <bool name="config_device_support_longpress_gesture">true</bool>
 
 </resources>
