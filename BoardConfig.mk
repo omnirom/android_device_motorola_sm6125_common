@@ -22,7 +22,7 @@
 # Inherit from dynamic_common
 -include device/motorola/dynamic_common/BoardConfigDynamicCommon.mk
 
-SM6125_PATH := device/motorola/sm6125_common
+SM6125_PATH := device/motorola/motorola_sm6125_common
 
 TARGET_OTA_ASSERT_DEVICE := sofiar
 

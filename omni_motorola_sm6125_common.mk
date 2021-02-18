@@ -26,19 +26,19 @@ TARGET_BOOTANIMATION_SIZE := 1080p
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/motorola/sm6125_common/prebuilt/product,product) \
-    $(call find-copy-subdir-files,*,device/motorola/sm6125_common/prebuilt/system,system)
+    $(call find-copy-subdir-files,*,device/motorola/motorola_sm6125_common/prebuilt/product,product) \
+    $(call find-copy-subdir-files,*,device/motorola/motorola_sm6125_common/prebuilt/system,system)
 
 $(call inherit-product, device/motorola/dynamic_common/omni-dynamic_common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/motorola/sm6125_common/sm6125_common.mk)
+$(call inherit-product, device/motorola/motorola_sm6125_common/sm6125_common.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_sm6125_common
-PRODUCT_DEVICE := sm6125_common
+PRODUCT_NAME := omni_motorola_sm6125_common
+PRODUCT_DEVICE := motorola_sm6125_common
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := moto g8 power
@@ -68,6 +68,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.swap_util_max=80 \
     ro.lmk.psi_complete_stall_ms=80
 
-DEVICE_PACKAGE_OVERLAYS += device/motorola/sm6125_common/overlay/device
+DEVICE_PACKAGE_OVERLAYS += device/motorola/motorola_sm6125_common/overlay/device
 
 $(call inherit-product, vendor/motorola/sm6125_common/sm6125_common-vendor.mk)
