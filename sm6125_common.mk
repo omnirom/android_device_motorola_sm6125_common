@@ -20,6 +20,12 @@
 # product configuration (apps).
 #
 
+AB_OTA_PARTITIONS += \
+    boot \
+    system \
+    vbmeta \
+    product
+
 $(call inherit-product, device/motorola/dynamic_common/dynamic_common.mk)
 
 # Boot control
