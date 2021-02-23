@@ -9,6 +9,7 @@
     <string name="config_mainBuiltInDisplayCutout">M 128,0 L 0,0 L 0,100 L 128,100 Z @left</string>
     <string name="config_mms_user_agent">motogstylus</string>
     <string name="wifi_tether_configure_ssid_default">moto g stylus</string>
+    <dimen name="rounded_corner_radius">95px</dimen>
 
     <!-- The list of vendor package signatures that should also be considered
          platform signatures, specifically for use on devices with a vendor partition. -->
