@@ -19,4 +19,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
+    <dimen name="status_bar_padding_end">12dp</dimen>
+
 </resources>
