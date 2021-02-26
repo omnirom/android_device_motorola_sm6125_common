@@ -51,6 +51,14 @@ PRODUCT_PACKAGES += \
     MotoSofiaPSprout \
     MotoSofiaR
 
+PRODUCT_PACKAGES += \
+    SystemUI_MotoRav \
+    SystemUI_MotoRavT \
+    SystemUI_MotoSofia \
+    SystemUI_MotoSofiaP \
+    SystemUI_MotoSofiaPSprout \
+    SystemUI_MotoSofiaR
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.trinket
